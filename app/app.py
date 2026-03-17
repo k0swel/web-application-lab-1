@@ -8,7 +8,7 @@ import os
 from json import loads
 from modules.posts import PostInfo
 from datetime import datetime, timedelta
-
+load_dotenv()
 app = Flask(__name__)
 application = app
 
@@ -76,4 +76,4 @@ def about():
                            text='Леоненко Роман 241-3211')
 
 if __name__ == '__main__':
-    app.run()
+    app.run('0.0.0.0', 81, True)
