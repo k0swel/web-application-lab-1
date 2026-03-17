@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/k0swel/web-application-1-frontend.git
+[submodule "api"]
+	path = api
+	url = https://github.com/k0swel/web-application-api.git
